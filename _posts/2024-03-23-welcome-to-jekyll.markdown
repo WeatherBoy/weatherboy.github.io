@@ -27,3 +27,11 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+<embed 
+       type="text/html" 
+       src="/bokeh/periodic.html"
+       width="1100"
+       height="600"
+       >
+</embed>
