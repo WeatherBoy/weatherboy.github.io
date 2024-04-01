@@ -6,3 +6,4 @@ vendor
 venv_02806/
 .vscode
 data
+*__pycache__/
