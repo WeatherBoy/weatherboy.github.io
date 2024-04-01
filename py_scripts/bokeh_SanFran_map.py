@@ -8,7 +8,7 @@ from bokeh.transform import dodge, factor_cmap
 
 from utils.distance_funcs import haversine
 
-
+SAVE_PATH = "./bokeh/sanFran_map.html"
 FILENAME = "../data/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv"
 crime_df = pd.read_csv(FILENAME)
 crime_df = crime_df[crime_df["Date"].str.contains("2018") == False]  # Remove 2018 data
