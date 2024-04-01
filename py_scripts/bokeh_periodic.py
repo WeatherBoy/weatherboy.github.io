@@ -3,7 +3,7 @@ from bokeh.plotting import figure
 from bokeh.sampledata.periodic_table import elements
 from bokeh.transform import dodge, factor_cmap
 
-SAVE_PATH = "./bokeh/periodic.html"
+SAVE_PATH = "../bokeh/periodic.html"
 output_file(SAVE_PATH)
 
 periods = ["I", "II", "III", "IV", "V", "VI", "VII"]
